@@ -1,0 +1,18 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "plusBeta": false,
+    "isCreatingSolution": true,
+    "nodeVersion": "22.22.0",
+    "sdksVersions": {},
+    "version": "1.21.1",
+    "libraryName": "bpcl-cph-news",
+    "libraryId": "2eb9cc3e-95fc-46b3-873b-fc02f1cbb319",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "bpcl-cph-news",
+    "solutionShortDescription": "bpcl-cph-news description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}

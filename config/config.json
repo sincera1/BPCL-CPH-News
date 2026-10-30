@@ -1,0 +1,19 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "bpcl-cph-news-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/bpclCphNews/BpclCphNewsWebPart.js",
+          "manifest": "./src/webparts/bpclCphNews/BpclCphNewsWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "BpclCphNewsWebPartStrings": "lib/webparts/bpclCphNews/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js"
+  }
+}

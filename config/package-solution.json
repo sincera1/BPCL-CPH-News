@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "bpcl-cph-news-client-side-solution",
+    "id": "2eb9cc3e-95fc-46b3-873b-fc02f1cbb319",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.21.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "bpcl-cph-news description"
+      },
+      "longDescription": {
+        "default": "bpcl-cph-news description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "bpcl-cph-news Feature",
+        "description": "The feature that activates elements of the bpcl-cph-news solution.",
+        "id": "99638813-2486-46d8-a9d4-d0ee4914a24a",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/bpcl-cph-news.sppkg"
+  }
+}
